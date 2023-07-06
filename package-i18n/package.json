@@ -20,7 +20,7 @@
     "techui-language": "^3.0.2",
     "techui-license": "^3.0.0",
     "techui-license-dev": "^3.0.1",
-    "techui-vue2": "^3.1.4",
+    "techui-vue2": "^3.1.5",
     "vue": "^2.7.14",
     "vue-i18n": "^8.28.2",
     "vue-resource": "^1.5.3",

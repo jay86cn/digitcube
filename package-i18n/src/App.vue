@@ -1,5 +1,5 @@
 <template>
-  <div :class="['theme theme-'+theme,'language-'+language,'root-BG',deviceType]" id="root">
+  <div :class="['theme theme-'+theme,'language-'+language,'root-BG',deviceType]" id="root-techui">
     <controlPanel toggleButton="show" :plus="controlPanelPlus"></controlPanel>
     <routerNav :nav="navProcess"/>
     <router-view/>
