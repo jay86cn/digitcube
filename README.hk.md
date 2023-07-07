@@ -24,7 +24,7 @@
 
 
 
-**本開發包內置數個Dashboard，如下圖。 **
+**本開發包內置數個Dashboard，如下圖。**
 
 **DashboardA**
 

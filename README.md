@@ -17,7 +17,7 @@
 
 ## 🛡️ Declaration
 
-<span style="color:red">**The temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy. ** </span>
+<span style="color:red">**The temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy.** </span>
 
 **In addition, a free [techUI-lite](https://lite.techui.net/docs/) framework is provided, welcome to download and use**
 
@@ -25,7 +25,7 @@ The files in this development kit are source codes, which can be used for commer
 - For authorized users of the advanced version, contact the administrator to update the license and enter the development stage directly.
 
 
-**This development kit has several built-in Dashboards, as shown in the figure below. **
+**This development kit has several built-in Dashboards, as shown in the figure below.**
 
 **DashboardA**
 
