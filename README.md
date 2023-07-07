@@ -120,11 +120,11 @@ The files in this development kit are source codes, which can be used for commer
 
 ## 📜 Update Description
 
-- **20230707 release framework techui-vue2, techui-vue3-lite, demo, documentation, development kit, among which vue2 development includes multi-language and single-language versions. **
+- **20230707 release framework techui-vue2, techui-vue3-lite, demo, documentation, development kit, among which vue2 development includes multi-language and single-language versions.**
 - **20230701 The core is upgraded to 3.1, and the wasm module has been used since 3.0 for license logic, encryption and decryption logic, and SVG dynamic node calculation**
-- **202304-202306 core version 2.0-2.2, extensively modify component names, calling methods, and built-in methods to make the whole framework more standardized and easy to use. **
-- **20230316 The core is upgraded to 1.4, and a system title component is added, as well as a lot of detailed modifications. **
-- **20230302 Mobile terminal Dashboard, the development source code of splicing screen, integrated into the development kit. **
+- **202304-202306 core version 2.0-2.2, extensively modify component names, calling methods, and built-in methods to make the whole framework more standardized and easy to use.**
+- **20230316 The core is upgraded to 1.4, and a system title component is added, as well as a lot of detailed modifications.**
+- **20230302 Mobile terminal Dashboard, the development source code of splicing screen, integrated into the development kit.**
 - **20230225 Documentation update English and Traditional Chinese language**
 - **20230223 Release the development kit to Gitee and Github for the first time, and the documents are released simultaneously**
 
