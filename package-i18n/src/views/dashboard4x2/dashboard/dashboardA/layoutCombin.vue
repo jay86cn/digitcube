@@ -32,13 +32,13 @@ export default {
     return {
       panelTitleConfig:{width:180,},
       portlets:[
-        {id:"p1",title:"重点指标",component:"counter",border:"aYinTechBorderB1",hideTitle:true},
-        {id:"p2",title:"非煤矿山情况",component:"echartsPieA",border:"aYinTechBorderB4"},
-        {id:"p3",title:"井下人员情况",component:"personalCondition",border:"aYinTechBorderB4"},
-        {id:"p4",title:"本月事故情况",component:"echartsLineA",border:"aYinTechBorderB4"},
-        {id:"p5",title:"煤矿生产标准化",component:"pyramid",border:"aYinTechBorderB4"},
-        {id:"p6",title:"联网接入情况",component:"echartsBarSpc",border:"aYinTechBorderB4"},
-        {id:"p7",title:"执法情况",component:"echartsBarLineTabs",border:"aYinTechBorderB4",hideTitle:true},
+        {id:"p1",title:"Key indicators",component:"counter",border:"aYinTechBorderB1",hideTitle:true},
+        {id:"p2",title:"Non-coal mine",component:"echartsPieA",border:"aYinTechBorderB4"},
+        {id:"p3",title:"Underground Personnel",component:"personalCondition",border:"aYinTechBorderB4"},
+        {id:"p4",title:"Accidents month",component:"echartsLineA",border:"aYinTechBorderB4"},
+        {id:"p5",title:"Standardization Coal Mine",component:"pyramid",border:"aYinTechBorderB4"},
+        {id:"p6",title:"Internet access",component:"echartsBarSpc",border:"aYinTechBorderB4"},
+        {id:"p7",title:"Law Enforcement Situation",component:"echartsBarLineTabs",border:"aYinTechBorderB4",hideTitle:true},
       ]
     };
   },

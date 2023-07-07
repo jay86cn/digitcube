@@ -26,8 +26,8 @@ export default {
         current: 'a'
       },
       chartData:{
-        legend:['预算成本', '实际成本'],
-        yAxis:['待上报', '流转中', '已上报'],
+        legend:['Budget cost', 'Actual cost'],
+        yAxis:['ToBeReported', 'Circulation', 'Reported'],
         colors:[$c.cbm6,$c.cym3],
         data:[
           [320, 302, 341,],

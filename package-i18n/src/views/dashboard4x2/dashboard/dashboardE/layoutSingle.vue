@@ -26,10 +26,10 @@ export default {
   data() {
     return {
       portlets:[
-        {id:"p1",title:"年度收益预测走势",component:"echartsLineD",border:"DVBorderBox1",hideTitle:true},
-        {id:"p2",title:"业务盈利能力走势",component:"echartsBarA",border:"DVBorderBox1",hideTitle:true},
-        {id:"p3",title:"仓库温湿度",component:"echartsGaugeTwo",border:"DVBorderBox1",hideTitle:true},
-        {id:"p4",title:"其他图表",component:"echartsPie",border:"DVBorderBox1",hideTitle:true},
+        {id:"p1",title:"Annual revenue forecast trend",component:"echartsLineD",border:"DVBorderBox1",color:[0,2,3],hideTitle:true},
+        {id:"p2",title:"Business Profitability Trend",component:"echartsBarA",border:"DVBorderBox1",color:[0,2,3],hideTitle:true},
+        {id:"p3",title:"Warehouse temperature and humidity",component:"echartsGaugeTwo",border:"DVBorderBox1",color:[0,2,3],hideTitle:true},
+        {id:"p4",title:"Other Charts",component:"echartsPie",border:"DVBorderBox1",color:[0,2,3],hideTitle:true},
       ]
     };
   },
@@ -37,9 +37,9 @@ export default {
   methods: {
     getConfig(item){
       let borderConfig={
-        title:this.$t(`dashboard4x2B.PTitle.${item.id}`),
+        title:this.$t(`dashboard4x2E.PTitle.${item.id}`),
         ani:false,
-        titleWidth:250,
+        titleWidth:350,
         // titleColor:$c.cbl3,
         // backgroundColor:$c.bll9,
         // borderColor:$c.bll7,

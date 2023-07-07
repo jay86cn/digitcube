@@ -11,7 +11,7 @@ export default {
   data() {
     return {
         chartData:{
-          legend:['企业A长企业名称长企业名称AA','企业B','企业C','企业D','企业E','企业F','企业G'],
+          legend:['Enterprise Long Name','EnterpriseB','EnterpriseC','EnterpriseD','EnterpriseE','EnterpriseF','EnterpriseG'],
           data:[235, 210, 187, 212, 278, 220, 320,],
         },
         reset:false,

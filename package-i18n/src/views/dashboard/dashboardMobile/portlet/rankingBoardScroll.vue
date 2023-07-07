@@ -11,20 +11,12 @@ export default {
   data() {
     return {
         chartData:{
-          legend:['企业A长企业名称长企业名称AA','企业B','企业C','企业D','企业E','企业F','企业G'],
+          legend:['Enterprise Long Name','EnterpriseB','EnterpriseC','EnterpriseD','EnterpriseE','EnterpriseF','EnterpriseG'],
           data:[235, 210, 187, 212, 278, 220, 320,],
         },
         reset:false,
         optionRanking:{
-          data: [
-            // { name: '企业2A长企业名称长企业名称', value: 32 }, 
-            // { name: '企业2B', value: 28 }, 
-            // { name: '企业2C', value: 24 }, 
-            // { name: '企业2D', value: 19 }, 
-            // { name: '企业2E', value: 16 }, 
-            // { name: '企业2F', value: 17 }, 
-            // { name: '企业2G', value: 5 }
-          ],
+          data: [],
           rowNum:3,
           //carousel: 'page'
           waitTime:5000

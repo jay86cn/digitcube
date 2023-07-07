@@ -29,8 +29,8 @@ export default {
         current: 'a'
       },
       chartData:{
-        legend:['预算成本'],
-        yAxis:["队伍A", "队伍B", "队伍C", "队伍D", "队伍E"],
+        legend:['budget cost'],
+        yAxis:["TeamA", "TeamB", "TeamC", "TeamD", "TeamE"],
         colors:[$c.cbl3,$c.inl2,$c.grm3,$c.vim3,$c.oyl3],
         colorsD:[$c.cbl7,$c.inr6,$c.grr8,$c.vir7,$c.oyr8],
         data: [93, 85, 22, 76, 13],

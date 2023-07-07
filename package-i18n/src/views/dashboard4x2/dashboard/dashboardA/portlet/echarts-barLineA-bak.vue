@@ -9,8 +9,8 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['超采区面积', '可开采量'],
-        xAxis:['超采区1', '超采区2', '超采区3', '超采区4', '超采区5', '超采区6', '超采区7', '超采区8', '超采区9', '超采区10'],
+        legend:['over-exploitation area', 'recoverable volume'],
+         xAxis:['area 1', 'area 2', 'area 3', 'area 4', 'area 5', 'area 6', 'area 7 ', 'Overexploitation area 8', 'Overexploitation area 9', 'Overexploitation area 10'],
         colors:[$c.bll4,$c.aql4,$c.ipl3,$c.cbl3,],
         data:[
           [235, 210, 187, 212, 278, 220, 320, 302, 301, 334],

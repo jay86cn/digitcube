@@ -23,12 +23,12 @@ export default {
   data() {
     return {
       arry:[
-        {title:"年度合同总额",icon:"i carbon:thumbnail-1",unit:"万元",total:"14276"},
-        {title:"年度回款总额",icon:"i carbon:table-built",unit:"万元",total:"14276"},
-        {title:"年度开票金额",icon:"i carbon:thumbnail-preview",unit:"万元",total:"3135"},
-        {title:"年度净利润",icon:"i carbon:analytics",unit:"万元",total:"769"},
-        {title:"年度合同总数",icon:"i carbon:document-attachment",unit:"份",total:"3135"},
-        {title:"销售统计",icon:"i carbon:chart-histogram",unit:"人",total:"769"},
+        {title:"Annual contract sum",icon:"i carbon:thumbnail-1",unit:"$10K",total:"14276"},
+        {title:"Annual repayment total",icon:"i carbon:table-built",unit:"$10K",total:"14276"},
+        {title:"Annual billing amount",icon:"i carbon:thumbnail-preview",unit:"$10K",total:"3135"},
+        {title:"Annual net profit",icon:"i carbon:analytics",unit:"$10K",total:"769"},
+        {title:"Contracts per year",icon:"i carbon:document-attachment",unit:"",total:"3135"},
+        {title:"Sales Statistics",icon:"i carbon:chart-histogram",unit:"",total:"769"},
       ],
       borderConfig: {
         decoration: false,

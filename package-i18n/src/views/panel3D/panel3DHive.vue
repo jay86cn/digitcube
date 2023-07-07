@@ -44,7 +44,7 @@ export default {
       },
       toggleConfig:{
         checked:true,
-        title:"3D视图开关"
+        title:"3D View Switch"
       },
       adptivePanelConfig:{
         backgroundName:"A2",
@@ -61,7 +61,6 @@ export default {
   watch:{
     "globalConfig.panel3D"(val){
       this.boar3dConfig.view3d=val
-      console.log("pan3dState",val);
     }
   },
   methods: {

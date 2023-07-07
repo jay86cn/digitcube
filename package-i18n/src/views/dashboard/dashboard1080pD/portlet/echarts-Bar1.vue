@@ -26,8 +26,8 @@ export default {
         current: 'a'
       },
       chartData:{
-        legend:['待审批', '已审批'],
-        xAxis:['财务科', '承包商管理中心', '安全科', '生产科', '工程科', '装备科'],
+        legend:['Pending', 'Approved'],
+        xAxis:['Finance Section', 'Management Center', 'Security Section', 'Production Section', 'Engineering', 'Equipment Section'],
         colors:[$c.aql4,$c.cyl4,$c.rel4,],
         data:[
           [235, 210, 187, 212, 278, 220],

@@ -27,7 +27,7 @@ export default {
       },
       chartData:{
         legend:['2021', '2022'],
-        xAxis:['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+        xAxis:['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
         colors:[$c.aql4,$c.cyl4,$c.rel4,],
         data:[
           [235, 210, 187, 212, 278, 220,123,223,321,189,175,123],

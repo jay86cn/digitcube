@@ -27,14 +27,14 @@ export default {
         current: 'a'
       },
       simData:{
-        name:['靖51-29','SN0046','靖57-62','CB25-2','靖63-67','黄36H9-2','安平33-23'],
+        name:['Jing 51-29','SN0046','Jing 57-62','CB25-2','Jing 63-67','Yellow 36H9-2','Anping 33-23'],
         budget:[744,226,982,12,422,632,213],
         actual:[12,35,78,99,32,68,34],
         diff:[-12,15,48,35,-32,18,34],
       },
       option:{
         reset:true,
-        header: ['井场名', '预算成本', '实际成本', '预算差异'],
+        header: ['Well name', 'Budget', 'Actual', 'Difference'],
         data:[],
         index: false,
         columnWidth: [100,100,100,100],

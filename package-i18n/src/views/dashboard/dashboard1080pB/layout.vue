@@ -23,28 +23,14 @@
 export default {
   mixins: [],
   components: {
-    //mapDrill:() => import('../portlet/mapLN.vue'),
-    // mapDrill:() => import('../portlet/mapDrill.vue'),
     map3D:() => import('./portlet/map/map-geo3D-bar.vue'),
-    mapDrill:() => import('./portlet/map/map-simple.vue'),
-    echartsBarA:() => import('./portlet/echarts-BarA.vue'),
-    echartsBarHoriz:() => import('./portlet/echarts-BarHoriz.vue'),
-    echartsLineA:() => import('./portlet/echarts-lineA.vue'),
-    echartsBarLineTabs:() => import('./portlet/echarts-barLineTabs.vue'),
-    echartsLineB:() => import('./portlet/echarts-lineB.vue'),
-    echartsLineC:() => import('./portlet/echarts-lineC.vue'),
-    echartsPieTabs:() => import('./portlet/echarts-pieTabs.vue'),
-    echartsBarLineA:() => import('./portlet/echarts-BarLineA.vue'),
-    scrollBoardTable:() => import('./portlet/scrollBoard-Table.vue'),
-    rankingBoard:() => import('./portlet/rankingBoardScroll.vue'),
-    echartsLineD:() => import('./portlet/echarts-lineD.vue'),
-    echartsGaugeTriple:() => import('./portlet/echarts-gaugeTriple.vue'),
-    echartsBarB:() => import('./portlet/echarts-BarB.vue'),
-    echartsBarHorizA:() => import('./portlet/echarts-BarHorizA.vue'),
-    echartsRadar:() => import('./portlet/echarts-radar.vue'),
     echartsHill:() => import('./portlet/echarts-hill-group/echarts-hill.vue'),
+    echartsBarHorizA:() => import('./portlet/echarts-BarHorizA.vue'),
+    echartsPieTabs:() => import('./portlet/echarts-pieTabs.vue'),
+    echartsRadar:() => import('./portlet/echarts-radar.vue'),
+    echartsGaugeTriple:() => import('./portlet/echarts-gaugeTriple.vue'),
     chartCounter:() => import('./portlet/chartCounter/chartCounter.vue'),
-    layoutDialog:()=>import('./dialog/index-dialog.vue')
+    layoutDialog:()=>import('./dialog/index-dialog.vue'),
   },
   data() {
     return {
@@ -53,7 +39,7 @@ export default {
         show:false,
         width:'60%',
         height:'60%',
-        title:"对话框标题",
+        title:"dialog Title",
         titleWidth:350,
       },
       panelTitleConfig:{
@@ -89,14 +75,14 @@ export default {
       },
       areas:[
         {name:"left",portlets:[
-          {id:"l1",title:"销售情况",component:"chartCounter",border:"blank"},
-          {id:"l2",title:"任务完成情况",component:"echartsGaugeTriple",border:"blank"},
-          {id:"l3",title:"开支占比",component:"echartsRadar",border:"blank"},
+          {id:"r1",title:"Sales",component:"chartCounter",border:"blank"},
+          {id:"r2",title:"Task status",component:"echartsGaugeTriple",border:"blank"},
+          {id:"r3",title:"Expenses",component:"echartsRadar",border:"blank"},
         ]},
         {name:"right",portlets:[
-          {id:"r1",title:"收支情况",component:"echartsPieTabs",border:"blank"},
-          {id:"r2",title:"业务收益情况",component:"echartsBarHorizA",border:"blank"},
-          {id:"r3",title:"行业收入占比",component:"echarts-hill",border:"blank"},
+          {id:"l2",title:"Revenue & expenditure",component:"echartsPieTabs",border:"blank"},
+          {id:"l3",title:"Business income",component:"echartsBarHorizA",border:"blank"},
+          {id:"l1",title:"Industry revenue",component:"echarts-hill",border:"blank"},
         ]},
         
         

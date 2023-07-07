@@ -20,10 +20,10 @@ export default {
   data() {
     return {
       counterList:[
-        {name:"软件销售额",icon:"i carbon:ibm-z-cloud-mod-stack",num:13694,unit:"元",plus:218},
-        {name:"硬件销售额",icon:"i carbon:chip",num:14558,unit:"元"},
-        {name:"技术服务",icon:"i carbon:user-speaker",num:3962,unit:"元",plus:462},
-        {name:"安全服务",icon:"i carbon:rule",num:5302,unit:"元",plus:775},
+        {name:"Software Sales",icon:"i carbon:ibm-z-cloud-mod-stack",num:394,unit:"$10K",barColor:$c.rel3},
+        {name:"Hardware Sales",icon:"i carbon:chip",num:42558,unit:"$10K",barColor:$c.yel3},
+        {name:"Technical Services",icon:"i carbon:user-speaker",num:50262,unit:"$10K"},
+        {name:"Security Service",icon:"i carbon:rule",num:50262,unit:"$10K"},
       ]
     };
   },

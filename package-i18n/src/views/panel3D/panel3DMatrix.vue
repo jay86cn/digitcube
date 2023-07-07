@@ -42,7 +42,7 @@ export default {
       },
       toggleConfig:{
         checked:true,
-        title:"3D视图开关"
+        title:"3D View Switch"
       },
       adptivePanelConfig:{
         backgroundName:"A2",

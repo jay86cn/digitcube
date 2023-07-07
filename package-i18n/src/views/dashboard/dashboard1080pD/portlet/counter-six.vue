@@ -25,12 +25,12 @@ export default {
   data() {
     return {
       counterList:[
-        {name:"靖边",val:[63,478],unit:"个"},
-        {name:"陇东",val:[231,828],unit:"个"},
-        {name:"靖安",val:[82,472],unit:"个"},
-        {name:"姬塬",val:[147,827],unit:"个"},
-        {name:"对外合作",val:[125,73],unit:"个"},
-        {name:"乌审旗",val:[842,24],unit:"个"},
+        {name:"Jingbian",val:[63,478],unit:""},
+        {name:"Longdong",val:[231,828],unit:""},
+        {name:"Jing'an",val:[82,472],unit:""},
+        {name:"Ji Yuan",val:[147,827],unit:""},
+        {name:"Foreign",val:[125,73],unit:""},
+        {name:"Wushen",val:[842,24],unit:""},
         
       ]
     };

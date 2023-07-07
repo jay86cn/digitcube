@@ -28,14 +28,14 @@ mixins: [themeChart],
       },
       chartData:[
         {
-          name:"盈利总额",
-          legend:['软件','硬件','服务','安全','广告'],
-          colors:[$c.bll5,$c.inl3,$c.yel3,$c.orl3,$c.rel3],
-          data:[625,352,123,83,129]
-        },
-        {
-          name:"支出总额",
-          legend:['人力','商务','后勤','差旅','奖金','办公用品'],
+           name: "Profit",
+           legend:['Software','Hardware','Service','Security','Advertising'],
+           colors:[$c.bll5,$c.inl3,$c.yel3,$c.orl3,$c.rel3],
+           data:[625,352,123,83,129]
+         },
+         {
+           name: "Expenses",
+           legend:['Manpower','Business','Logistics','Travel','Bonuses','Supplies'],
           colors:[$c.bll5,$c.inl3,$c.yel3,$c.orl3,$c.rel3],
           data:[15,72,43,13,20,30]
         }

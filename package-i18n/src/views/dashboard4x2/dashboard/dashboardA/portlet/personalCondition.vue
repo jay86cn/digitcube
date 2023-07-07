@@ -21,8 +21,8 @@ export default {
   data() {
     return {
       counter:[
-        {title:"实施作业人数",num:26205,total:38452,img:base64Img.person,},
-        {title:"带班领导人数",num:4386,total:7652,img:base64Img.person,},
+        {title:"People performing operations",num:26205,total:38452,img:base64Img.person,},
+        {title:"Leaders in charge",num:4386,total:7652,img:base64Img.person,},
       ],
     };
   },

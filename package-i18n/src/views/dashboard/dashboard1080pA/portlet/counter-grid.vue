@@ -23,10 +23,10 @@ export default {
   data() {
     return {
       arry:[
-        {title:"软件销售额",icon:"i carbon:ibm-z-cloud-mod-stack",unit:"万元",total:"1874"},
-        {title:"硬件销售额",icon:"i carbon:chip",unit:"万元",total:"3276"},
-        {title:"技术服务",icon:"i carbon:user-speaker",unit:"万元",total:"315"},
-        {title:"安全服务",icon:"i carbon:rule",unit:"万元",total:"769"},
+        {title:"Software sales",icon:"i carbon:ibm-z-cloud-mod-stack",unit:"Million",total:"1874"},
+        {title:"Hardware sales",icon:"i carbon:chip",unit:"Million",total:"3276"},
+        {title:"Technology services",icon:"i carbon:user-speaker",unit:"Million",total:"315"},
+        {title:"Security Services",icon:"i carbon:rule",unit:"Million",total:"769"},
       ],
     };
   },

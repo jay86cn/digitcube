@@ -9,7 +9,7 @@ mixins: [themeChart],
   data() {
     return {
       chartData:{
-        legend:['建筑业','工业'],
+        legend:['Construction','Industry'],
         colors:[$c.bll5,$c.inl3,],
         data:[625,352]
       },

@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['政策落实问题', '生产保障差', '缺乏创新能力', '风险防范缺乏','营商环境差'],
+        legend:['Product A', 'Product B', 'Product C', 'Product D','Product E'],
         colors:[$c.yel3,$c.cbl4,$c.aql4,$c.pul3,$c.rel3,],
         data:[2831.2314, 998.3421, 731.3451, 2341.3521, 1132.11,]
       },

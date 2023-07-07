@@ -34,7 +34,7 @@ export default {
         },
         series: [
           {
-            name: "刻度",
+            name: "",
             type: "gauge",
             center: ["60%", "50%"],
             radius: '70%',

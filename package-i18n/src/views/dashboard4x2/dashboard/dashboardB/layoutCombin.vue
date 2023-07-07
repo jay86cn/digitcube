@@ -28,11 +28,11 @@ export default {
     return {
       panelTitleConfig:{width:180,},
       portlets:[
-        {id:"p1",title:"异常特征分布",component:"echartsRadar",border:"DVBorderBox2"},
-        {id:"p2",title:"重点监控告警",component:"echartsGaugeTriple",border:"DVBorderBox1",hideTitle:true},//class:"noAni",
-        {id:"p3",title:"散点分布图",component:"echartScatter",border:"DVBorderBox2"},
-        {id:"p4",title:"产品生产数据",component:"echartsBarB",border:"DVBorderBox2"},
-        {id:"p5",title:"产品销售数据",component:"echartsLineB",border:"DVBorderBox2"},
+        {id:"p1",title:"Anomalous Feature",component:"echartsRadar",border:"DVBorderBox2"},
+        {id:"p2",title:"Key Monitoring",component:"echartsGaugeTriple",border:"DVBorderBox1",hideTitle:true},//,class:"noAni"
+        {id:"p3",title:"Scatter Distribution",component:"echartScatter",border:"DVBorderBox2"},
+        {id:"p4",title:"Production Data",component:"echartsBarB",border:"DVBorderBox2"},
+        {id:"p5",title:"Sales Data",component:"echartsLineB",border:"DVBorderBox2"},
       ]
     };
   },

@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['业务1','业务2'],
+        legend:['Business A','Business B'],
         xAxis:[],
         colors:[$c.cbl4,$c.bll5],
        data:[]

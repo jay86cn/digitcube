@@ -10,7 +10,7 @@ mixins: [themeChart],
 data() {
   return {
     chartData:{
-      yAxis:['任务A', '任务B', '任务C', '任务较长名称D', '任务E', '任务F', '任务G', '任务H', '任务I'],
+      yAxis:['Task A', 'Task B', 'Task C', 'Task Longer Name', 'Task E', 'Task F', 'Task G', 'Task H', 'Task I' ],
       color:[$c.cyl4,$c.orl5,$c.rel5],
       data:[69, 96, 35,26, 96, 32 ,52 ,22 ,72]
     },

@@ -28,13 +28,13 @@ export default {
     return {
       panelTitleConfig:{width:180,},
       portlets:[
-        {id:"t1",title:"统计模块",component:"counterGrid",border:"blank",hideTitle:true},
-        {id:"t2",title:"重点信息看板",component:"echartsBarLine1",border:"DVBorderBox1",hideTitle:true},
-        {id:"t3",title:"销售排行榜Top10",component:"rankingBoard",border:"aYinTechBorderB4"},
-        {id:"b1",title:"回款变动推送",component:"scrollBoardTable",border:"aYinTechBorderB4"},
-        {id:"b2",title:"回款与开票统计",component:"echartsLine1",border:"aYinTechBorderB1"},
-        {id:"b3",title:"净利润环比",component:"echartsBar2",border:"aYinTechBorderB1"},
-        {id:"b4",title:"合同类型占比",component:"echartsPie1",border:"aYinTechBorderB4"},
+        {id:"t1",title:"Statistics module",component:"counterGrid",border:"blank",hideTitle:true},
+        {id:"t2",title:"Information Board",component:"echartsBarLine1",border:"DVBorderBox1",hideTitle:true},
+        {id:"t3",title:"Top 10 sales list",component:"rankingBoard",border:"aYinTechBorderB4"},
+        {id:"b1",title:"Payment change push",component:"scrollBoardTable",border:"aYinTechBorderB4"},
+        {id:"b2",title:"Receipt and billing",component:"echartsLine1",border:"aYinTechBorderB1"},
+        {id:"b3",title:"Net profit chain",component:"echartsBar2",border:"aYinTechBorderB1"},
+        {id:"b4",title:"Contract Type",component:"echartsPie1",border:"aYinTechBorderB4"},
       ]
     };
   },

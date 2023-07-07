@@ -10,10 +10,10 @@ export default {
   data() {
     return {
       chartData:{
-        title:["海侵区\n面积占比A","海侵区\n面积占比B"],
+        title:["Transgression\n Area ratio A","Transgression\n Area ratio B"],
         legend:[
-          ['海侵区A','海侵区B','海侵区C',"海侵区D"],
-          ['超采区A','超采区B','超采区C',"超采区D","超采区E"]
+          ['AreaA','AreaB','AreaC',"AreaD"],
+          ['AreaA','AreaB','AreaC',"AreaD","AreaE"]
         ],
         colors:[
           [$c.aqm5,$c.cym5,$c.cbm5,$c.blm5],

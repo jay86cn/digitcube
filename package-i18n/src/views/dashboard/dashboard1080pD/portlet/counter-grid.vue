@@ -22,13 +22,12 @@ export default {
   data() {
     return {
       arry:[
-        //{title:"文书总数",icon:"fal fa-pump",unit:"个",total:"3135"},
-        {title:"人工成本",icon:"i carbon:events-alt",unit:"万元",total:"14276"},
-        {title:"直接材料费",icon:"i carbon:cloud-satellite",unit:"万元",total:"14276"},
-        {title:"折旧及摊销费",icon:"i carbon:network-admin-control",unit:"万元",total:"3135"},
-        {title:"内部结算",icon:"i carbon:delivery-parcel",unit:"万元",total:"769"},
-        {title:"间接费用分摊",icon:"i carbon:concept",unit:"万元",total:"3135"},
-        {title:"其他直接支出",icon:"i carbon:cics-system-group",unit:"万元",total:"769"},
+        {title:"Labor cost",icon:"i carbon:events-alt",unit:"$10K",total:"14276"},
+        {title:"Material cost",icon:"i carbon:cloud-satellite",unit:"$10K",total:"14276"},
+        {title:"Depreciation",icon:"i carbon:network-admin-control",unit:"$10K",total:"3135"},
+        {title:"Settlement",icon:"i carbon:delivery-parcel",unit:"$10K",total:"769"},
+        {title:"Indirect",icon:"i carbon:concept",unit:"$10K",total:"3135"},
+        {title:"Direct Expenses",icon:"i carbon:cics-system-group",unit:"$10K",total:"769"},
       ],
       borderConfig: {
         decoration: false,

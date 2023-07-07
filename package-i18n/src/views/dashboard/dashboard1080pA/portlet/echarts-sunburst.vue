@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       chartData:{
-        title:"业务利润占比",
+        title:"Business profit share",
         colors:[$c.aql4, $c.cyl4,$c.rel5],
         data:[],
         dataMax:300

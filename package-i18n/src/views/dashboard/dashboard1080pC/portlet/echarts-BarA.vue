@@ -9,9 +9,9 @@ mixins: [themeChart],
 data() {
   return {
     chartData:{
-      title:"超采区关系",
-      legend:['可开采量', '超采区面积'],
-      xAxis:['超采区1', '超采区2', '超采区3', '超采区4', '超采区5', '超采区6'],
+      title:"Overdraft Relationship",
+      legend:['TypeA', 'TypeB'],
+      xAxis:['Area1', 'Area2', 'Area3', 'Area4', 'Area5', 'Area6'],
       colors:[$c.aql4,$c.cyl4,$c.rel4],
       data:[
         [235, 210, 187, 212, 278, 220, 320, 302, 301, 334, 390, 330,300,240,345],

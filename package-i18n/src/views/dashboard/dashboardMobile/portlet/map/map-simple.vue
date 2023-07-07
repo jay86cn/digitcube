@@ -1,6 +1,5 @@
 <template>
   <div class="dashboardMobileA-map" >
-    <!-- <mapNav></mapNav> -->
     <mapPopover :clickData="clickData"></mapPopover>
     <mapViewToggle :view="view" @changeView="changeView"></mapViewToggle>
     <echartsMap class="echartsMap" v-if="mapInited" :chartOption="chartOption" :chartData="chartData" @mapClick="mapClick" @mapAction="mapAction"></echartsMap>
@@ -13,7 +12,6 @@ export default {
   mixins: [themeChart],
   components: {
     mapPopover:() => import("./map-popover.vue"),
-    mapNav:() => import('./map-nav.vue'),
     mapCounter:() => import('./map-counter.vue'),
     mapViewToggle:() => import('./map-viewToggle.vue'),
   },
@@ -22,9 +20,9 @@ export default {
       mapInited:false,
       view:{
         data:[
-          {title:"矿山分布",label:"data1"},
-          {title:"执法完成",label:"data2"},
-          {title:"风险分布",label:"data3"},
+          {title:"Mine District",label:"data1"},
+          {title:"Enforcement",label:"data2"},
+          {title:"Risk District",label:"data3"},
         ],
         current:"data1"
       },
@@ -46,8 +44,8 @@ export default {
         minData:9,
         maxPin:35,
         minPin:15,
-        layoutCenter:[['50%', '50%'],['50%', '45%']],
-        layoutSize:["90%","80%"],
+        layoutCenter:['50%', '50%'],
+        layoutSize:"90%",
         // visualMapPos:{
         //   right:"26.5%",
         //   bottom:"17%"
@@ -81,14 +79,8 @@ export default {
         return [$c.orl3,$c.rel5,$c.wh]
       }
     },
-    mapCenter(){
-      const {chartData}=this,{layoutCenter}=chartData
-      return chartData.nav.data[chartData.nav.data.length-1].name=='全国'?layoutCenter[0]:layoutCenter[1]
-    },
-    mapSize(){
-      const {chartData}=this,{layoutSize}=chartData
-      return chartData.nav.data[chartData.nav.data.length-1].name=='全国'?layoutSize[0]:layoutSize[1]
-    }
+    
+    
   },
   methods: {
     changeView(item){
@@ -110,30 +102,8 @@ export default {
           symbolSize: 5,
           emphasis:{ label: { show: false } },
           label: {//ayinMark
-            //formatter: '\n{b}',
-            // formatter: p => {
-            //   switch (p.data.name) { 
-            //     case '内蒙古自治区': p.data.name = "内蒙古" 
-            //     break; 
-            //     case '西藏自治区': p.data.name = "西藏" 
-            //     break; 
-            //     case '新疆维吾尔自治区': p.data.name = "新疆" 
-            //     break; 
-            //     case '宁夏回族自治区': p.data.name = "宁夏" 
-            //     break; 
-            //     case '广西壮族自治区': p.data.name = "广西" 
-            //     break; 
-            //     case '香港特别行政区': p.data.name = "香港" 
-            //     break; 
-            //     case '澳门特别行政区': p.data.name = "澳门" 
-            //     break; 
-            //     default: break; 
-            //   }
-            //   return "\n"+p.data.name
-            // },
-            formatter:p=>{
-              return p.data?.name?.replace(/省|壮族自治区|回族自治区|维吾尔自治区|自治区|市|县|自治县|特别行政区|区/, '')
-            },
+            
+            
             position: 'center',
             align:"center",
             show: false,
@@ -215,7 +185,8 @@ export default {
         let bred=this.chartData.nav.data
         current=bred[bred.length-1]
       }
-      const {mapCenter,mapSize,chartData,chartOption,processMapData,getColor}=this
+      const {chartData,chartOption,processMapData,getColor}=this,
+            {layoutCenter, layoutSize}=chartData
       let tempOption={
         title: {
           show:false,
@@ -231,36 +202,15 @@ export default {
             max: 3
           },
           //zoom :1.2,
-          layoutCenter:mapCenter,
-          layoutSize:mapSize,
+          layoutCenter,
+          layoutSize,
           zlevel:1,
           label: {
             show: true,
             color:getColor("actFC"),
             fontSize: 12,
-            // formatter: p => {
-            //   switch (p.name) { 
-            //     case '内蒙古自治区': p.name = "内蒙古" 
-            //     break; 
-            //     case '西藏自治区': p.name = "西藏" 
-            //     break; 
-            //     case '新疆维吾尔自治区': p.name = "新疆" 
-            //     break; 
-            //     case '宁夏回族自治区': p.name = "宁夏" 
-            //     break; 
-            //     case '广西壮族自治区': p.name = "广西" 
-            //     break; 
-            //     case '香港特别行政区': p.name = "香港" 
-            //     break; 
-            //     case '澳门特别行政区': p.name = "澳门" 
-            //     break; 
-            //     default: break; 
-            //   }
-            //   return p.name; 
-            // },
-            formatter:p=>{
-              return p?.name?.replace(/省|壮族自治区|回族自治区|维吾尔自治区|自治区|市|县|自治县|特别行政区|区/, '')
-            },
+            
+            
             //offset:[0,10],
           },
           

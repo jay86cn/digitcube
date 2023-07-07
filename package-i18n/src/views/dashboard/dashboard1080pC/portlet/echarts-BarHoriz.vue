@@ -9,9 +9,9 @@ mixins: [themeChart],
 data() {
   return {
     chartData:{
-      title:"超采区",
-      legend:['水位(米)', '用水量(吨)'],
-      yAxis:['超采区1', '超采区2', '超采区3', '超采区4', '超采区5', '超采区6'],
+      title:"overexploitation area",
+      legend:['Level (meter)', 'Consumption (tons)'],
+      yAxis:['Area1', 'Area2', 'Area3', 'Area4', 'Area5', 'Area6'],
       colors:[$c.bll4,$c.pum3,$c.rel4,],
       data:[
         [320, 302, 341, 374, 390, 450],

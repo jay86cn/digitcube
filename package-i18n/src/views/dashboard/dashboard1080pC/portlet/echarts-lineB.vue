@@ -9,8 +9,8 @@ export default {
   data() {
     return {
       chartData:{
-      legend:['山丘地区', '平原地区', '山前倾向', '河川激流'],
-      xAxis:['行政区1', '行政区2', '行政区3', '行政区4', '行政区5', '行政区6', '行政区7', '行政区8', '行政区9', '行政区10', '行政区11', '行政区12'],
+      legend:['HillArea', 'PlainArea', 'Pedestal', 'RiverRapids'],
+      xAxis:['District1', 'District2', 'District3', 'District4', 'District5', 'District6', 'District7', 'District8', 'District9', 'District10', 'District11', 'District12'],
       colors:[$c.aql5,$c.cyl5,$c.bll5,$c.inl3,],
       data:[
         [235, 210, 187, 212, 278, 220, 320, 302, 301, 334, 390, 330,300,240],

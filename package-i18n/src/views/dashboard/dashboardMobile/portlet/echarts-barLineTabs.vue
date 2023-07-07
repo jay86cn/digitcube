@@ -22,21 +22,21 @@ export default {
       },
       chartData:[
         {
-          name:"监测站埋深分析",
+          name:"Depth analysis",
           type:"bar",
-          legend:['埋深'],
-          xAxis:['监测站1', '监测站2', '监测站3', '监测站4', '监测站5', '监测站6', '监测站7', '监测站8', '监测站9', '监测站10'],
-          colors:[$c.aql4],
+          legend:['Depth'],
+          xAxis:['Station1', 'Station2', 'Station3', 'Station4', 'Station5', 'Station6', 'Station7', 'Station8', 'Station9', 'Station10'],
+          colors:[$c.aql4,$c.orl3,$c.cbl3,],
           data:[
             [-235, -210, -187, -212, -278, -220, -320, -302, -301, -334],
           ],
         },
         {
-          name:"监测站水位分析",
+          name:"Water Level Analysis",
           type:"line",
-          legend:['水位'],
-          xAxis:['监测站xx', '监测站2', '监测站3', '监测站4', '监测站5', '监测站6', '监测站7', '监测站8', '监测站9', '监测站10'],
-          colors:[$c.cyl3],
+          legend:['Water Level'],
+          xAxis:['Stationxx', 'Station2', 'Station3', 'Station4', 'Station5', 'Station6', 'Station7', 'Station8', 'Station9', 'Station10'],
+          colors:[$c.cbl3,],
           data:[
             [68, 121, 34, 56, 23, 120, 132, 101, 134, 90],
           ],

@@ -9,19 +9,19 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['预算分配','实际开销'],
+        legend:['Budget','Actual'],
         colors:[$c.bll5,$c.cyl5,],
         data:[
-          [5000, 1400, 2800, 3100, 4200, 2100],
-          [4300, 1000, 2700, 3500, 5000, 1900],
+          [50, 14, 28, 31, 42, 21],
+          [43, 10, 27, 35, 50, 19],
         ],
         indicator: [
-          { name: '销售', max: 10000,},
-          { name: '管理', max: 10000, },
-          { name: '技术', max: 10000, },
-          { name: '客服', max: 10000, },
-          { name: '研发', max: 10000, },
-          { name: '市场', max: 10000, }
+          { name: 'Sales', max: 100,},
+          { name: 'Management', max: 100, },
+          { name: 'Technology', max: 100, },
+          { name: 'Customer Service', max: 100, },
+          { name: 'R&D', max: 100, },
+          { name: 'Market', max: 100, }
         ],
       },
       chartOption:{ }
@@ -31,8 +31,8 @@ export default {
   watch:{
     "$tState.mapData.name"(val1,val2){
       let dr=this.randomData({
-        min:7000,
-        max:10000,
+        min:50,
+        max:100,
         length:6,
         group:2
       })
@@ -90,7 +90,7 @@ export default {
         },
         },
         tooltip: {
-            show: true,
+          show: true,
           trigger: "item"
         },
         legend: {
@@ -158,8 +158,8 @@ export default {
   },
   mounted() {
     this.chartData.data=this.randomData({
-      min:7000,
-      max:10000,
+      min:50,
+      max:100,
       length:6,
       group:2
     })

@@ -9,8 +9,8 @@ mixins: [themeChart],
   data() {
     return {
       chartData:{
-      legend:['水位情况', '用水量'],
-      xAxis:['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+      legend:['Water level situation', 'Water consumption'],
+      xAxis:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
       colors:[$c.bll4,$c.orl4,],
       data:[
         [235, 210, 187, 212, 278, 220, 320, 302, 301, 334, 390, 330,300,240],

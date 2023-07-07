@@ -27,10 +27,10 @@ export default {
     return {
       panelTitleConfig:{width:180,},
       portlets:[
-        {id:"p1",title:"销售业绩统计表",component:"echartsPieA",border:"DVBorderBox2"},
-        {id:"p2",title:"各城区人力资源表",component:"echartsPictorialBar",border:"DVBorderBox2"},
-        {id:"p3",title:"销售业绩统计表",component:"echartsLineC",border:"DVBorderBox1",hideTitle:true},
-        {id:"p4",title:"滚动列表",component:"scrollBoard",border:"DVBorderBox2"},
+        {id:"p1",title:"Sales Performance",component:"echartsPieA",border:"DVBorderBox2"},
+        {id:"p2",title:"Human Resources",component:"echartsPictorialBar",border:"DVBorderBox2"},
+        {id:"p3",title:"Sales Performance",component:"echartsLineC",border:"DVBorderBox1",hideTitle:true},
+        {id:"p4",title:"Scrolling List",component:"scrollBoard",border:"DVBorderBox2"},
       ]
     };
   },

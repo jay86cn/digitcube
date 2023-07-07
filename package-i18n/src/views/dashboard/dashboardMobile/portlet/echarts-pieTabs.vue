@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       current:0,
-      title:"年用水量",
+      title:"Year Consum",
       total:0,
       buttonConfig:{
         height:30,
@@ -29,14 +29,14 @@ export default {
       },
       chartData:[
         {
-          name:"年用水量",
-          legend:['工业用水','农业用水','生活用水','循环水','其他'],
+          name:"Year Consum",
+          legend:['Industrial','Agricultural','Domestic','circulating','Other'],
           colors:[$c.bll5,$c.inl3,$c.yel3,$c.orl3,$c.rel3],
           data:[625,352,123,83,129]
         },
         {
-          name:"日用水量",
-          legend:['工业用水','农业用水','生活用水','循环水','其他'],
+          name:"Daily Consum",
+          legend:['Industrial','Agricultural','Domestic','circulating','Other'],
           colors:[$c.bll5,$c.inl3,$c.yel3,$c.orl3,$c.rel3],
           data:[15,72,43,13,20]
         }

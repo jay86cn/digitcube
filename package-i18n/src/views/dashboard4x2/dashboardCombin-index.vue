@@ -14,10 +14,9 @@
     </template>
     <template v-else>
       <div class="mobileMode-alert">
-        <p class="title">4x2组合屏 提示</p>
-        <p>检测到您当前处于移动端模式查看，4x2组合屏数据量庞大，通常移动设备的性能有限，无法支撑本功能的展示。</p>
-        <p>请移步到PC端访问。</p>
-        <!-- <p>如果您已经在用pc端访问，请确保您的浏览器窗口已经最大化，然后尝试刷新。</p> -->
+        <p class="title">{{$t("tip.title.combin4x2Mobile")}}</p>
+        <p>{{$t("tip.desc.dashboardCombinA")}}</p>
+        <p>{{$t("tip.desc.dashboardCombinB")}}</p>
       </div>
     </template>
   </div>

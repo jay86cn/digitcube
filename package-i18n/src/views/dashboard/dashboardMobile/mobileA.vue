@@ -80,38 +80,38 @@ export default {
       panelTitleConfig:{width:180,},
       tabActive:0,
       tabs:[
-        {title:"海侵区",label:0},
-        {title:"保护区A",label:1},
-        {title:"保护区B",label:2},
+        {title:"Area A",label:0},
+        {title:"Area B",label:1},
+        {title:"Area C",label:2},
       ],
       
       areas:[
         {name:"top",portlets:[
-          {id:"l0",title:"地图",component:"mapDrill",border:"aYinTechBorderB4",hideTitle:true},
-          {id:"l1",title:"超采区关系",component:"echartsBarA",border:"aYinTechBorderB4"},
-          {id:"l2",title:"超采区水位 / 用水量",component:"echartsBarHoriz",border:"aYinTechBorderB4"},
-          {id:"l3",title:"超采区行政区用水情况",component:"echartsLineA",border:"aYinTechBorderB4"},
-          {id:"l4",title:"计数器",component:"counterGrid",border:false},
-          {id:"c1",title:"柱状图选项卡",component:"echartsBarLineTabs",border:"aYinTechBorderB4",hideTitle:true},
-          {id:"c2",title:"地下水总体趋势",component:"echartsLineB",border:"aYinTechBorderB4"},
+          {id:"l0",title:"map",component:"mapDrill",border:"aYinTechBorderB4",hideTitle:true},
+          {id:"l1",title:"Overexploitation area",component:"echartsBarA",border:"aYinTechBorderB4"},
+          {id:"l2",title:"Water consumption",component:"echartsBarHoriz",border:"aYinTechBorderB4"},
+          {id:"l3",title:"Water use",component:"echartsLineA",border:"aYinTechBorderB4"},
+          {id:"l4",title:"Counter",component:"counterGrid",border:false},
+          {id:"c1",title:"Pie Tabs",component:"echartsBarLineTabs",border:"aYinTechBorderB4",hideTitle:true},
+          {id:"c2",title:"Groundwater trend",component:"echartsLineB",border:"aYinTechBorderB4"},
         ]},
         {name:"bottom",portlets:[
-          {id:"r1",title:"饼图选项卡",component:"echartsPieTabs",border:"aYinTechBorderB4",hideTitle:true},
+          {id:"r1",title:"Pie Tabs",component:"echartsPieTabs",border:"aYinTechBorderB4",hideTitle:true},
 
           {border:"aYinTechBorderB4",charts:[
-            {id:"r2_1",title:"海侵区面积变化情况",component:"echartsLineC",activeIn:0},
-            {id:"r2_2",title:"区域内监测站水位A",component:"echartsLineD",activeIn:1},
-            {id:"r2_3",title:"区域内监测站水位B",component:"echartsLineD",activeIn:2}
+            {id:"r2_1",title:"Transgressive area",component:"echartsLineC",activeIn:0},
+            {id:"r2_2",title:"Water level A",component:"echartsLineD",activeIn:1},
+            {id:"r2_3",title:"Water level B",component:"echartsLineD",activeIn:2}
           ]},
           {border:"aYinTechBorderB4",charts:[
-            {id:"r3_1",title:"海侵区情况",component:"echarts-BarLineA",activeIn:0},
-            {id:"r3_2",title:"区域内监测站埋深A",component:"echartsBarB",activeIn:1},
-            {id:"r3_3",title:"区域内监测站埋深B",component:"echartsBarB",activeIn:2}
+            {id:"r3_1",title:"Transgressive Situation",component:"echarts-BarLineA",activeIn:0},
+            {id:"r3_2",title:"Buried depth A",component:"echartsBarB",activeIn:1},
+            {id:"r3_3",title:"Buried depth B",component:"echartsBarB",activeIn:2}
           ]},
           {border:"aYinTechBorderB4",charts:[
-            {id:"r4_1",title:"企业用水量超标报警",component:"scrollBoardTable",activeIn:0},
-            {id:"r4_2",title:"日用水量排行榜A",component:"rankingBoard",activeIn:1},
-            {id:"r4_3",title:"日用水量排行榜B",component:"rankingBoard",activeIn:2}
+            {id:"r4_1",title:"Water consumption",component:"scrollBoardTable",activeIn:0},
+            {id:"r4_2",title:"Water consumption A",component:"rankingBoard",activeIn:1},
+            {id:"r4_3",title:"Water consumption B",component:"rankingBoard",activeIn:2}
           ]},
         ]},
         

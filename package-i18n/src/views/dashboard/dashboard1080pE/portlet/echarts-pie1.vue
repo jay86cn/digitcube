@@ -24,19 +24,19 @@ export default {
     return {
       select:{
         options: [
-          { value: 'a', label: '全年' }, 
-          { value: 'b', label: '去年' }, 
-          { value: 'c', label: '2022年1月' }, 
-          { value: 'd', label: '2022年2月' }, 
-          { value: 'e', label: '2022年3月' }, 
-          { value: 'f', label: '2022年4月' }, 
-          { value: 'g', label: '2022年5月' }, 
+          { value: 'a', label: 'All year' }, 
+          { value: 'b', label: 'Last year' }, 
+          { value: 'c', label: 'January 2022' }, 
+          { value: 'd', label: 'February 2022' }, 
+          { value: 'e', label: 'March 2022' }, 
+          { value: 'f', label: 'April 2022' }, 
+          { value: 'g', label: 'May 2022' }, 
         ],
         current: 'a'
       },
-      counter:{title:"合同总额",num:1723},
+      counter:{title:"Total Amount",num:1723},
       chartData:{
-        legend:['产品合同', 'MA续保合同', '技术服务合同', '硬件合同','实施合同'],
+        legend:['Product', 'MA', 'Technical', 'Hardware','Implement'],
         colors:[$c.yel3,$c.cbl4,$c.aql4,$c.pul3,$c.rel3,],
         data:[2831.2314, 998.3421, 731.3451, 2341.3521, 1132.11,]
       },

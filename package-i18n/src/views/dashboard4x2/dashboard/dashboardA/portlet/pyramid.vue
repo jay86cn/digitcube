@@ -17,9 +17,9 @@ export default {
   data() {
     return {
       arry:[
-        {name:"数据A",num:135},
-        {name:"数据B",num:463},
-        {name:"数据C",num:984},
+        {name:"DataA",num:135},
+        {name:"DataB",num:463},
+        {name:"DataC",num:984},
       ],
       img:base64Img.pyramid
     };

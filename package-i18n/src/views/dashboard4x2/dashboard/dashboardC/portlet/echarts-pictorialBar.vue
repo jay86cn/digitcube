@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       chartData:{
-        yAxis:["城区A", "城区B", "城区C", "城区D", "城区E"],
+        yAxis:["CityA", "CityB", "CityC", "CityD", "CityE"],
         colors: ['#00e79e', '#00e7ce', '#00dceb', '#00b2f7', '#197fe6'],
         colorsD:['rgb(0,102,70)', 'rgb(0,102,91)', 'rgb(0,95,102)', 'rgb(0,74,102)', 'rgb(10,51,92)'],
         data:[60,85,105,130,185]

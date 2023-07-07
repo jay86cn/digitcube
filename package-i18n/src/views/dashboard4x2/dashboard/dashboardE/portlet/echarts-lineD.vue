@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['数据1', '数据2', '数据3'],
+        legend:['Data A', 'Data B', 'Data C'],
         xAxis:[],
         colors:[$c.aql3,$c.bll6,$c.bll3,],
         data:[],

@@ -9,8 +9,8 @@ export default {
   data() {
     return {
       chartData:{
-      legend:['回款额', '开票额'],
-      xAxis:['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+      legend:['Received', 'Invoicing'],
+      xAxis:['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
       colors:[$c.yel2,$c.rel4,$c.aql3,],
       data:[
         [320, 302, 301, 334, 390, 330,300,240,235, 210, 187, 212, 278, 220, ],

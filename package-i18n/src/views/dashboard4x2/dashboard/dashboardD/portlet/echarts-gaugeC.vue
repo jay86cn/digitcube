@@ -24,7 +24,7 @@ export default {
             {colors}=chartData
       let data=chartData;
       this.chartOption.series.push({
-        name: '业务指标',
+        name: 'Alarm noise reduction ratio',
         type: 'gauge',
         detail: { formatter: '{value}%' },
         data: [data],

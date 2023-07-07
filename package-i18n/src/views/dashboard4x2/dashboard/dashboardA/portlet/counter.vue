@@ -16,10 +16,10 @@ export default {
   data() {
     return {
       counter:[
-        {name:"正在建设",num:388},
-        {name:"停产停工",num:925},
-        {name:"正在生产",num:1100},
-        {name:"长期停产停建",num:1056},
+        {name:"Under Construction",num:388},
+        {name:"Stop Production",num:925},
+        {name:"In production",num:1100},
+        {name:"Suspension",num:1056},
       ]
     };
   },

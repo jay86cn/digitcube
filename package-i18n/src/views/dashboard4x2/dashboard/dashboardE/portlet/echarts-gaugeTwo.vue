@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['温度','湿度'],
+        legend:['Temperature','Humidity'],
         unit:['℃','%'],
         position: [['27%', '55%'],['73%', '55%']],
         range: [[-40, 100],[0, 100]],

@@ -9,8 +9,8 @@ mixins: [themeChart],
   data() {
     return {
       chartData:{
-      legend:['水位'],
-      xAxis:['行政区1', '行政区2', '行政区3', '行政区4', '行政区5', '行政区6', '行政区7', '行政区8', '行政区9', '行政区10', '行政区11', '行政区12'],
+      legend:['water level'],
+      xAxis:['District1', 'District2', 'District3', 'District4', 'District5', 'District6', 'District7', 'District8', 'District9', 'District10', 'District11', 'District12'],
       colors:[$c.orl4,$c.aql3,],
       data:[
         [168, 181, 134, 126, 134, 190, 230, 210,220,179,123, 120, 132, 101, ],

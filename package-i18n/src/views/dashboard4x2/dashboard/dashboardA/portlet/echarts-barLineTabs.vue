@@ -22,9 +22,9 @@ export default {
       },
       chartData:[
         {
-          name:"监察执法情况",
-          legend:['执法矿次', '查出重点隐患', '处罚金额'],
-          xAxis:['数据1', '数据2', '数据3', '数据4', '数据5', '数据6', '数据7', '数据8', '数据9', '数据10'],
+          name:"Supervision",
+          legend:['Law Enforcement', 'Hidden danger', 'Penalty Amount'],
+          xAxis:['Data1', 'Data2', 'Data3', 'Data4', 'Data5', 'Data6', 'Data7', 'Data8', 'Data9', 'Data10'],
           colors:[$c.bll4,$c.aql4,$c.orl3,$c.cbl3],
           data:[
             [235, 210, 187, 212, 278, 220, 320, 302, 301, 334],
@@ -33,9 +33,9 @@ export default {
           ],
         },
         {
-          name:"监管执法情况",
-          legend:['执法矿次', '查出重点隐患', '处罚金额'],
-          xAxis:['数据1', '数据2', '数据3', '数据4', '数据5', '数据6', '数据7', '数据8', '数据9', '数据10'],
+          name:"Law Enforcement",
+          legend:['Law Enforcement', 'Hidden danger', 'Penalty Amount'],
+          xAxis:['Data1', 'Data2', 'Data3', 'Data4', 'Data5', 'Data6', 'Data7', 'Data8', 'Data9', 'Data10'],
           colors:[$c.bll4,$c.aql4,$c.orl3,$c.cbl3],
           data:[
             [220, 320, 302, 301, 334,235, 210, 187, 212, 278],

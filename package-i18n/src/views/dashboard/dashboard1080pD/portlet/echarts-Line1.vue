@@ -26,8 +26,8 @@ export default {
         current: 'a'
       },
       chartData:{
-        legend:['预算成本', '实际成本'],
-        xAxis:['直接材料费', '内部结算成本', '其他直接费用', '人工成本', '折旧及摊销费', '收入结算'],
+        legend:['Budget cost', 'Actual cost'],
+        xAxis:['Direct material', 'Internal Settlement', 'Other expenses', 'Labor cost', 'Depreciation', 'Revenue'],
         colors:[$c.cyl4,$c.inm4],
         data:[
           [235, 210, 187, 212, 278, 220],

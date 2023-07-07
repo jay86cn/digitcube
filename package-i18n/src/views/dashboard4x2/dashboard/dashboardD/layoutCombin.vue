@@ -29,11 +29,11 @@ export default {
     return {
       panelTitleConfig:{width:180,},
       portlets:[
-        {id:"p1",title:"实时流速图",component:"echartsBarHoriA",border:"DVBorderBox2"},
-        {id:"p2",title:"根源告警分布",component:"echartsHitmapGroup",border:"DVBorderBox1",hideTitle:true},
-        {id:"p3",title:"告警情况",component:"echartsGaugeCounter",border:"DVBorderBox2"},
-        {id:"p4",title:"多组仪表范例",component:"echartsGaugeFour",border:"DVBorderBox2"},
-        {id:"p5",title:"流量排行topN",component:"echartsBarHoriB",border:"DVBorderBox2"},
+        {id:"p1",title:"Real-time flow",component:"echartsBarHoriA",border:"DVBorderBox2",color:[0,1,3]},
+        {id:"p2",title:"Root Source Alarm",component:"echartsHitmapGroup",border:"DVBorderBox1",color:[0,2,3],hideTitle:true},
+        {id:"p3",title:"Alarm Situation",component:"echartsGaugeCounter",border:"DVBorderBox2",color:[0,1,3]},
+        {id:"p4",title:"Multiple Instruments",component:"echartsGaugeFour",border:"DVBorderBox2",color:[0,1,3]},
+        {id:"p5",title:"Traffic Ranking",component:"echartsBarHoriB",border:"DVBorderBox2",color:[0,1,3]},
       ]
     };
   },

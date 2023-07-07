@@ -23,11 +23,10 @@ export default {
   data() {
     return {
       arry:[
-        //{title:"文书总数",icon:"fal fa-pump",unit:"个",total:"3135"},
-        {title:"国控自动站",icon:"i carbon:building",unit:"",total:"4276"},
-        {title:"国土自动站",icon:"i carbon:building-insights-1",unit:"",total:"1873"},
-        {title:"省级自动站",icon:"i carbon:building-insights-2",unit:"个",total:"3135"},
-        {title:"人工监测站",icon:"i carbon:building-insights-3",unit:"个",total:"769"},
+        {title:"Automatic Station",icon:"i carbon:building",unit:"",total:"4276"},
+        {title:"Homeland Station",icon:"i carbon:building-insights-1",unit:"",total:"1873"},
+        {title:"Provincial Station",icon:"i carbon:building-insights-2",unit:"",total:"3135"},
+        {title:"Monitoring Station",icon:"i carbon:building-insights-3",unit:"",total:"769"},
       ],
       borderConfig: {
         decoration: false,

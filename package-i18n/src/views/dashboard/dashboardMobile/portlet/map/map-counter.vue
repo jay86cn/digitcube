@@ -19,10 +19,10 @@ export default {
   data() {
     return {
       counterList:[
-        {name:"地下水总量",icon:"i carbon:carbon-for-ibm-product",num:394,unit:"亿吨",plus:1},
-        {name:"监测取水量",icon:"i carbon:carbon-ui-builder",num:42558,unit:"亿吨"},
-        {name:"监测取水户",icon:"i carbon:carbon-for-ibm-dotcom",num:50262,unit:"家",plus:4},
-        {name:"监测取水口",icon:"i carbon:carbon",num:50262,unit:"个",plus:4},
+        {name:"Total Groundwater",icon:"i carbon:carbon-for-ibm-product",num:394,unit:"Billion tons",plus:1},
+        {name:"Water Intake",icon:"i carbon:carbon-ui-builder",num:42558,unit:"Billion tons"},
+        {name:"Water Users",icon:"i carbon:carbon-for-ibm-dotcom",num:50262,unit:"household",plus:4},
+        {name:"Intake Location",icon:"i carbon:carbon",num:50262,unit:"unit",plus:4},
       ]
     };
   },

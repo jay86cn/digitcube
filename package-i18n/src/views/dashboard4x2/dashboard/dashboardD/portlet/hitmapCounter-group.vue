@@ -22,7 +22,7 @@ export default {
     return {
       counter:{
         val:3300040,
-        title:"当前根源告警数"
+        title:"Current number alarms"
       },
       
     };

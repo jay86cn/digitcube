@@ -43,12 +43,6 @@ export default {
   data() {
     return {
       panelTitleConfig:{width:180,},
-      tabActive:0,
-      tabs:[
-        {title:"海侵区",label:0},
-        {title:"保护区A",label:1},
-        {title:"保护区B",label:2},
-      ],
       configBLeft:{
         rotate: {
           y:10,
@@ -75,20 +69,20 @@ export default {
       },
       areas:[
         {name:"left", portlets:[
-          {id:"l1",title:"井场成本统计",component:"echartsLine1",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"l2",title:"压裂/特作队成本统计",component:"echartsPie2",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"l3",title:"各队指标达标率",component:"waterLevelPercentPond",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"l1",title:"Well Cost",component:"echartsLine1",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"l2",title:"Fracking Cost",component:"echartsPie2",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"l3",title:"Target Rate",component:"waterLevelPercentPond",border:"aYinTechBorderA1",hideTitle:true},
         ]},
         {name:"right",portlets:[
-          {id:"r1",title:"各科室审批统计",component:"echartsBar1",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"r2",title:"井场成本偏差率",component:"scrollBoardTable",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"r3",title:"计数器",component:"counterGrid",border:false,hideTitle:true},
+          {id:"r1",title:"Approval Statistics",component:"echartsBar1",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"r2",title:"Well Deviation",component:"scrollBoardTable",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"r3",title:"Counter",component:"counterGrid",border:false,hideTitle:true},
         ]},
         {name:"center",portlets:[
-          {id:"c1",title:"统计模块",component:"counterSix",border:"blank",hideTitle:true},
-          {id:"c2",title:"项目部审核统计",component:"echartsBarHoriz1",border:"aYinTechBorderB1"},
-          {id:"c3",title:"压裂队表彰数量",component:"echartPictorialBar",border:"aYinTechBorderB1"},
-          {id:"c4",title:"各项目季度情况总览",component:"echartsBarLine1",border:"DVBorderBox5"},
+          {id:"c1",title:"Statistics module",component:"counterSix",border:"blank",hideTitle:true},
+          {id:"c2",title:"Project Audit Statistics",component:"echartsBarHoriz1",border:"aYinTechBorderB1"},
+          {id:"c3",title:"Team Commendations",component:"echartPictorialBar",border:"aYinTechBorderB1"},
+          {id:"c4",title:"Situation Overview",component:"echartsBarLine1",border:"DVBorderBox5"},
         ]}
       ]
       

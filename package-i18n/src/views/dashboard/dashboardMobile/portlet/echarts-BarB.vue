@@ -9,8 +9,8 @@ export default {
   data() {
     return {
     chartData:{
-      legend:['埋深'],
-      xAxis:['监测站1', '监测站2', '监测站3', '监测站4', '监测站5', '监测站6', '监测站7', '监测站8', '监测站9', '监测站10'],
+      legend:['buried depth'],
+      xAxis:['Station1', 'Station2', 'Station3', 'Station4', 'Station5', 'Station6', 'Station7', 'Station8', 'Station9', 'Station10'],
       colors:[$c.pul3,],
       data:[
         [-235, -210, -187, -212, -278, -220, -320, -302, -301, -334],

@@ -9,8 +9,8 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['数据1','数据2','数据3'],
-        xAxis:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+        legend:['Product A','Product B','Product C'],
+        xAxis:['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
         colors:[$c.cyl4,$c.rel4,$c.aql3],
         data:[
           [100, 200, 400, 500, 400, 200, 100, 100, 200, 400, 200,100],

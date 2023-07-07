@@ -9,8 +9,8 @@ mixins: [themeChart],
 data() {
   return {
     chartData:{
-      title:"任务完成情况",
-      legend:['开发任务','采购任务','销售任务'],
+      title:"Task completion",
+      legend:['Dev Task','Prod Task','Sales Task'],
       colors:[$c.aql4, $c.cyl4,$c.rel5],
       colorsD:[$c.aql8,$c.cyl8,$c.rel9],
       data:[45,33,77],

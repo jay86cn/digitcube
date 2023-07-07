@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['事故', '灾难'],
+        legend:['Accident', 'Disaster'],
         colors:[$c.cyl4,$c.rel4],
         data:[3094,1000],
       },

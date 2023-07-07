@@ -23,7 +23,7 @@ export default {
       
       counter:{
         val:5322389,
-        title:"当前根源告警数"
+        title:"Current Alarms"
       },
       
     };

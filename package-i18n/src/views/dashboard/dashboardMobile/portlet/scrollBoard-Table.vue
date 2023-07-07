@@ -10,13 +10,13 @@ export default {
   data() {
     return {
       simData:{
-        name:['企业A企业A企业A企业A','企业B','企业C','企业D企业D企业D企业D','企业E','企业F'],
+        name:['Enterprise A Enterprise A Enterprise A Enterprise A','Enterprise B','Enterprise C','Enterprise D Enterprise D Enterprise D Enterprise D','Enterprise E','Enterprise F'],
         number:[744,226,982,12,422,632],
         percent:[12,35,78,99,32,68],
       },
       option:{
         reset:true,
-        header: ['企业名称', '用水量(万吨)', '超标比'],
+        header: ['Company', 'Consumption', 'Exceeding'],
         data:[],
         index: false,
         columnWidth: [200,150,100],

@@ -30,7 +30,7 @@ export default {
         current: 'a'
       },
       chartData:{
-        legend:['直接材料费','内部结算成本','其他直接费用','人工成本','折旧及摊销费','收入结算'],
+        legend:['Material Cost','Internal Cost','Other Expenses','Labor Cost','Amortization','Revenue'],
         colors:[$c.bll5,$c.inl3,$c.aql3,$c.yel3,$c.orl3,$c.rel3],
         data:[325,252,323,183,120,143]
       },

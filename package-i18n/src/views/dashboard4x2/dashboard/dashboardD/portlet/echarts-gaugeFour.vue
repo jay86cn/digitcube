@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       chartData:{
-        legend:['仪表1','仪表2','仪表3','仪表4'],
+        legend:['MeterA','MeterB','MeterC','MeterD'],
         colors:[$c.aql4,$c.orl4,$c.rel4],
         data:[60,70,30,80]
       },

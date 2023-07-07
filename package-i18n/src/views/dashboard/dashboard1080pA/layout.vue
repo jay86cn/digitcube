@@ -28,23 +28,13 @@ export default {
   mixins: [],
   components: {
     mapDrill:() => import('./portlet/map/map-simple.vue'),
-    echartsBarA:() => import('./portlet/echarts-BarA.vue'),
     echartsBarHoriz:() => import('./portlet/echarts-BarHoriz.vue'),
     echartsLineA:() => import('./portlet/echarts-lineA.vue'),
     counterGrid:() => import('./portlet/counter-grid.vue'),
-    echartsBarLineTabs:() => import('./portlet/echarts-barLineTabs.vue'),
-    echartsLineB:() => import('./portlet/echarts-lineB.vue'),
-    echartsLineC:() => import('./portlet/echarts-lineC.vue'),
-    echartsPieTabs:() => import('./portlet/echarts-pieTabs.vue'),
-    echartsBarLineA:() => import('./portlet/echarts-BarLineA.vue'),
-    scrollBoardTable:() => import('./portlet/scrollBoard-Table.vue'),
-    rankingBoard:() => import('./portlet/rankingBoardScroll.vue'),
-    echartsLineD:() => import('./portlet/echarts-lineD.vue'),
     echartsGaugeTriple:() => import('./portlet/echarts-gaugeTriple.vue'),
-    echartsBarB:() => import('./portlet/echarts-BarB.vue'),
     echartsBarHorizA:() => import('./portlet/echarts-BarHorizA.vue'),
     echartsSunburst:() => import('./portlet/echarts-sunburst.vue'),
-    layoutDialog:()=>import('./dialog/index-dialog.vue')
+    layoutDialog:()=>import('./dialog/index-dialog.vue'),
   },
   data() {
     return {
@@ -97,14 +87,14 @@ export default {
       },
       areas:[
         {name:"left",portlets:[
-          {id:"l1",title:"收支情况",component:"echartsBarHoriz",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"l2",title:"业务收益情况",component:"echartsLineA",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"l3",title:"销售任务",component:"echartsBarHorizA",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"l2",title:"In & Out",component:"echartsBarHoriz",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"l3",title:"Revenue",component:"echartsLineA",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"l1",title:"Sales tasks",component:"echartsBarHorizA",border:"aYinTechBorderA1",hideTitle:true},
         ]},
         {name:"right",portlets:[
-          {id:"r1",title:"销售情况",component:"counterGrid",border:"blank",hideTitle:true},
-          {id:"r2",title:"任务完成情况",component:"echartsGaugeTriple",border:"aYinTechBorderA1",hideTitle:true},
-          {id:"r3",title:"业务利润占比",component:"echartsSunburst",border:"aYinTechBorderA1"},
+          {id:"r1",title:"Sales Status",component:"counterGrid",border:"blank",hideTitle:true},
+          {id:"r2",title:"Task Completion",component:"echartsGaugeTriple",border:"aYinTechBorderA1",hideTitle:true},
+          {id:"r3",title:"Business Profit",component:"echartsSunburst",border:"aYinTechBorderA1"},
         ]},
       ]
     };
