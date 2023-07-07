@@ -27,46 +27,46 @@ The files in this development kit are source codes, which can be used for commer
 
 **DashboardA**
 
-<img src="./demoImage/dashboardA-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardA-EN.png" style="border-radius:10px" width="800" />
 
 **DashboardB**
 
-<img src="./demoImage/dashboardB-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardB-EN.png" style="border-radius:10px" width="800" />
 
 **DashboardC**
 
-<img src="./demoImage/dashboardC-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardC-EN.png" style="border-radius:10px" width="800" />
 
 **DashboardD**
 
-<img src="./demoImage/dashboardD-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardD-EN.png" style="border-radius:10px" width="800" />
 
 **DashboardE**
 
-<img src="./demoImage/dashboardE-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardE-EN.png" style="border-radius:10px" width="800" />
 
 **DashboardA-Mobile terminal**
 
-<img src="./demoImage/mobile-CN.png" style="border-radius:10px" width="300" />
+<img src="./demoImage/mobile-EN.png" style="border-radius:10px" width="300" />
 
 **Enterprise splicing screen 4x2**
 
-<img src="./demoImage/dashboard4x2-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboard4x2-EN.png" style="border-radius:10px" width="800" />
 
 **3D panels**
 
-<img src="./demoImage/panel3D-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/panel3D-EN.png" style="border-radius:10px" width="800" />
 
 **Chart color matching tool**
 
-<img src="./demoImage/chartPalette-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/chartPalette-EN.png" style="border-radius:10px" width="800" />
 
 
 **For more demos, please refer to [techUI Demo](https://techui.net/)**
 
-<img src="./demoImage/warehouse-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/warehouse-EN.png" style="border-radius:10px" width="800" />
 
-<img src="./demoImage/pumpStation-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/pumpStation-EN.png" style="border-radius:10px" width="800" />
 
 -----
 

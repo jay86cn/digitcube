@@ -26,46 +26,46 @@
 
 **DashboardA**
 
-<img src="./demoImage/dashboardA-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardA-HK.png" style="border-radius:10px" width="800" />
 
 **DashboardB**
 
-<img src="./demoImage/dashboardB-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardB-HK.png" style="border-radius:10px" width="800" />
 
 **DashboardC**
 
-<img src="./demoImage/dashboardC-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardC-HK.png" style="border-radius:10px" width="800" />
 
 **DashboardD**
 
-<img src="./demoImage/dashboardD-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardD-HK.png" style="border-radius:10px" width="800" />
 
 **DashboardE**
 
-<img src="./demoImage/dashboardE-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboardE-HK.png" style="border-radius:10px" width="800" />
 
 **DashboardA-移動端** 
 
-<img src="./demoImage/mobile-CN.png" style="border-radius:10px" width="300" />
+<img src="./demoImage/mobile-HK.png" style="border-radius:10px" width="300" />
 
 **企業拼接屏4x2**
 
-<img src="./demoImage/dashboard4x2-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/dashboard4x2-HK.png" style="border-radius:10px" width="800" />
 
 **3D面板**
 
-<img src="./demoImage/panel3D-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/panel3D-HK.png" style="border-radius:10px" width="800" />
 
 **圖表配色工具**
 
-<img src="./demoImage/chartPalette-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/chartPalette-HK.png" style="border-radius:10px" width="800" />
 
 
 **更多demo，請查閱 [techUI Demo](https://techui.net/)** 
 
-<img src="./demoImage/warehouse-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/warehouse-HK.png" style="border-radius:10px" width="800" />
 
-<img src="./demoImage/pumpStation-CN.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/pumpStation-HK.png" style="border-radius:10px" width="800" />
 
 -----
 
