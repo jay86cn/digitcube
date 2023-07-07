@@ -23,7 +23,19 @@
 
 The files in this development kit are source codes, which can be used for commercial project development only by updating the license. For details, please contact the administrator.
 - For authorized users of the advanced version, contact the administrator to update the license and enter the development stage directly.
+- Please find my contact information at the bottom of this document.
 
+-----
+
+There are currently 4 built-in versions of the development kit
+- package-i18n multilingual development package, built in 3 languages, Simplified Chinese, Traditional Chinese, English
+- package-english Single language development package-English
+- package-simple-chinese Single language development package - Simplified Chinese
+- package-traditional-chinese Single language development package - Traditional Chinese
+
+Please download according to specific needs. The i18n version is slightly complicated because it calls the language definition. Try to choose a single-language development kit for testing and development.
+
+-----
 
 **This development kit has several built-in Dashboards, as shown in the figure below.**
 
