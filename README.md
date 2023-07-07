@@ -5,7 +5,7 @@
 <h1 align="center">
 <b>TechUI Development Kit</b>
 </h1>
-<div align="center">TechUI is a free and easy to use Dynamic SVG Data Visualization Dashboard development tool, based on vite + vue3 development</div>
+<div align="center">TechUI is a free and easy to use Dynamic SVG Data Visualization Dashboard development tool, based on vite + vue2 development</div>
 
 <p align="center">
    <a href="https://lite.techui.net/docs">Documentation</a> •
@@ -17,7 +17,9 @@
 
 ## 🛡️ Declaration
 
-<span style="color:red">**The temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy. In addition, a free [techUI-lite](https://lite.techui.net/docs/) framework is provided, welcome to download and use** </span>
+<span style="color:red">**The temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy. ** </span>
+
+**In addition, a free [techUI-lite](https://lite.techui.net/docs/) framework is provided, welcome to download and use**
 
 The files in this development kit are source codes, which can be used for commercial project development only by updating the license. For details, please contact the administrator.
 - For authorized users of the advanced version, contact the administrator to update the license and enter the development stage directly.
